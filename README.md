@@ -54,22 +54,22 @@ Simulate satellite control scenarios using placeholder functions.
 Ensure .env parameters can be updated without code changes.
 
 4. Tools and Technologies
-
+```
 Programming: Python, FastAPI
 LLM: AWS Bedrock Claude 3.5 Sonnet v2
 Vector Database: Qdrant
 Orchestration: LangGraph (ReAct agent)
 Configuration: python-dotenv for .env management
 Dependencies: boto3 (AWS SDK), qdrant-client, langgraph
-
+```
 5. Milestones
-
+```
 Week 1-2: Environment setup, Qdrant initialization, AWS Bedrock integration.
 Week 3-4: RAG pipeline and placeholder satellite functions.
 Week 5-6: LangGraph agent setup and FastAPI backend development.
 Week 7: Testing, validation, and documentation.
 Week 8: Final refinements and deployment preparation.
-
+```
 6. Risks and Mitigation
 
 Risk: AWS Bedrock latency or quota limits.
