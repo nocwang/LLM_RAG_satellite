@@ -1,7 +1,9 @@
 # LLM_RAG_satellite
 Satellite Control System Development Plan
 1. Project Overview
+
 The goal is to develop a system integrating a custom large language model (LLM) with a retrieval-augmented generation (RAG) pipeline to interface with and control satellite systems. The system leverages LangGraph for orchestration, AWS Bedrock Claude 3.5 Sonnet v2 as the LLM, and Qdrant as the vector database.
+
 2. System Architecture
 ```
 LLM Backend: AWS Bedrock Claude 3.5 Sonnet v2 for natural language processing and command generation.
@@ -13,6 +15,7 @@ Satellite Interface: Placeholder functions simulating satellite control (e.g., t
 Configuration: Parameters stored in a .env file for flexibility (e.g., AWS credentials, Qdrant URL, API keys).
 ```
 3. Development Phases
+
 Phase 1: Setup and Configuration
 
 Set up FastAPI project structure with .env for configuration.
@@ -54,6 +57,7 @@ Simulate satellite control scenarios using placeholder functions.
 Ensure .env parameters can be updated without code changes.
 
 4. Tools and Technologies
+
 ```
 Programming: Python, FastAPI
 LLM: AWS Bedrock Claude 3.5 Sonnet v2
@@ -62,7 +66,9 @@ Orchestration: LangGraph (ReAct agent)
 Configuration: python-dotenv for .env management
 Dependencies: boto3 (AWS SDK), qdrant-client, langgraph
 ```
+
 5. Milestones
+
 ```
 Week 1-2: Environment setup, Qdrant initialization, AWS Bedrock integration.
 Week 3-4: RAG pipeline and placeholder satellite functions.
@@ -70,6 +76,7 @@ Week 5-6: LangGraph agent setup and FastAPI backend development.
 Week 7: Testing, validation, and documentation.
 Week 8: Final refinements and deployment preparation.
 ```
+
 6. Risks and Mitigation
 
 Risk: AWS Bedrock latency or quota limits.
